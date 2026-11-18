@@ -29,6 +29,17 @@ Local-first dashboard untuk pengumpulan data media sosial publik, eksplorasi aku
 3. API tersedia di `http://localhost:3000/health`.
 4. Frontend tersedia di `http://localhost:5173`.
 
+## Dashboard web
+Dashboard MVP satu halaman berada di folder `app/`.
+
+```bash
+cd app
+npm install
+npm run dev
+```
+
+Dashboard dapat diakses di `http://localhost:5173`.
+
 > Starter ini adalah fondasi proyek, bukan integrasi EnsembleData yang sudah tervalidasi end-to-end. Nama endpoint, parameter, pagination, kuota, dan bentuk respons harus dikonfirmasi terhadap dokumentasi serta paket akun EnsembleData yang digunakan. Implementasi provider sengaja diisolasi di `apps/api/src/providers/ensembledata/`.
 
 ## Struktur
